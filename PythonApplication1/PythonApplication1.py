@@ -63,8 +63,17 @@ def prac():
 
 
 def main():
-    res = 1 % 10
-    print(res)
+  
+        printResultSet = map(throwaway, ['5', '2', '6'])
+        printResultSet = list(printResultSet)
+        print(printResultSet)
 
     
+
+def throwaway(n):
+    return len(n) + 8
+
+
+
+
 main()
